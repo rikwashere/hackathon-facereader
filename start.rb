@@ -5,16 +5,20 @@ cmd = "/usr/local/bin/python /Users/jeroen/Sites/vpro/hackathon/PythonAPI.py"
 
 def process_line(line)
   obj = nil
-  result = ""
+  values = []
   
   begin
     obj = JSON.parse(line.sub('INFO:root:',''))
-    result = obj["Classification"]["ClassificationValues"].to_s
+    values = obj["Classification"]["ClassificationValues"]["ClassificationValue"]
+    arousal = (values.detect {|v| v["Label"] == "Arousal"}["Value"]["float"]).to_f
   rescue Exception => e
       
   end
-    
-  result
+  
+  {
+    arousal: arousal,
+    values: values
+  }
 end
 
 begin
@@ -22,7 +26,7 @@ begin
     begin
 
       stdout.each do |line|
-        print process_line(line)
+        print process_line(line).to_s
         print "\n"
       end
 
