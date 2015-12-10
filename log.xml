@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+<PresentationResponseMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ResponseType>FaceReader_Sends_Connected</ResponseType>
+</PresentationResponseMessage><?xml version="1.0"?>
+<ResponseMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ResponseType>FaceReader_Sends_Success</ResponseType>
+  <Information>
+    <string>Succesfully handled FaceReader_Start_DetailedLogSending.</string>
+  </Information>
+</ResponseMessage><?xml version="1.0"?>
+<ResponseMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ResponseType>FaceReader_Sends_Error</ResponseType>
+  <Information>
+    <string>Already analyzing</string>
+  </Information>
+</ResponseMessage><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7690</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>36969554537</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7691</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>36972074682</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7692</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>36974384814</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7693</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>36977014964</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7694</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>36979485105</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7695</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>36981745235</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7696</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>36984445389</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7697</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>36986595512</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7698</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>36988745635</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7699</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>36990925760</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7700</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>36992305839</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7701</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>36994575969</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7702</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>36994575969</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7703</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>36999566254</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7704</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37001946390</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7705</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37004746550</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7706</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37007396702</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7707</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37010046854</FrameTimeTicks>
+  <ClassificationValues>
+    <ClassificationValue>
+      <Type>Value</Type>
+      <Label>Neutral</Label>
+      <Value>
+        <float>0.351401746</float>
+      </Value>
+    </ClassificationValue>
+    <ClassificationValue>
+      <Type>Value</Type>
+      <Label>Happy</Label>
+      <Value>
+        <float>0.0224402957</float>
+      </Value>
+    </ClassificationValue>
+    <ClassificationValue>
+      <Type>Value</Type>
+      <Label>Sad</Label>
+      <Value>
+        <float>0.007976676</float>
+      </Value>
+    </ClassificationValue>
+    <ClassificationValue>
+      <Type>Value</Type>
+      <Label>Angry</Label>
+      <Value>
+        <float>0.000391019334</float>
+      </Value>
+    </ClassificationValue>
+    <ClassificationValue>
+      <Type>Value</Type>
+      <Label>Surprised</Label>
+      <Value>
+        <float>0.03077353</float>
+      </Value>
+    </ClassificationValue>
+    <ClassificationValue>
+      <Type>Value</Type>
+      <Label>Scared</Label>
+      <Value>
+        <float>0.0012703</float>
+      </Value>
+    </ClassificationValue>
+    <ClassificationValue>
+      <Type>Value</Type>
+      <Label>Disgusted</Label>
+      <Value>
+        <float>0.06712733</float>
+      </Value>
+    </ClassificationValue>
+  </ClassificationValues>
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7708</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37013587056</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7709</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37021367501</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7710</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37023947649</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7711</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37030508024</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7712</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37032338128</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7713</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37035808327</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7714</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37038458479</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7715</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37040818614</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7716</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37043568771</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7717</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37045768897</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7718</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37052189264</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7719</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37057969595</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7720</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37064249954</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7721</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37068860217</FrameTimeTicks>
+  <ClassificationValues />
+</Classification><?xml version="1.0"?>
+<Classification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogType>DetailedLog</LogType>
+  <AnalysisType>Camera</AnalysisType>
+  <FrameNumber>7722</FrameNumber>
+  <AnalysisStartTime>2015-12-10T15:26:21.2769275+01:00</AnalysisStartTime>
+  <FrameTimeTicks>37068860217</FrameTimeTicks>
+  <ClassificationValues />
+</Classification>
