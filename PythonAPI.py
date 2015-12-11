@@ -69,7 +69,7 @@ messageType = 'FaceReaderAPI.Messages.ActionMessage'
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
  
 try:
-    s.connect(('10.0.1.129', 9090))
+    s.connect(('10.0.1.107', 9090))
 except socket.error , msg:
     print 'Connection failed. Error Code : ' + str(msg[0]) + ' Message ' + msg[1]
     sys.exit()

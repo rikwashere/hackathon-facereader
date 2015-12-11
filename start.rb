@@ -1,8 +1,11 @@
 require 'json'
 require 'pty'
-require 'faye/websocket'
+require 'eventmachine'
+require 'websocket-eventmachine-server'
 
-Faye::WebSocket.load_adapter('thin')
+# require 'faye/websocket'
+
+# Faye::WebSocket.load_adapter('thin')
 
 cmd = "/usr/local/bin/python /Users/jeroen/Sites/vpro/hackathon/PythonAPI.py"
 
@@ -15,7 +18,7 @@ def process_line(line)
     values = obj["Classification"]["ClassificationValues"]["ClassificationValue"]
     arousal = (values.detect {|v| v["Label"] == "Arousal"}["Value"]["float"]).to_f
   rescue Exception => e
-      
+    # 
   end
   
   {
@@ -24,38 +27,38 @@ def process_line(line)
   }
 end
 
-ws = nil
+as = nil
 
-App = lambda do |env|
-
-  ws = Faye::WebSocket.new(env)
-
-  ws.on :close do |event|
-    p [:close, event.code, event.reason]
-    ws = nil
-  end
-
+PTY.spawn(cmd) do |stdout, stdin, pid|
   begin
-    PTY.spawn(cmd) do |stdout, stdin, pid|
-      begin
 
-        stdout.each do |line|
-          ws.send process_line(line).to_s
-          # Return async Rack response
-          ws.rack_response
-          
-          print process_line(line).to_s
-          print "\n"
-        end
-
-      rescue Errno::EIO
-      end
+    stdout.each do |line|
+      as.send process_line(line).to_s
+      puts "Send a line"
     end
-  rescue PTY::ChildExited
-    puts "The child process exited!"
+
+  rescue Errno::EIO
   end
+end
 
 
+EM.run do
+
+  WebSocket::EventMachine::Server.start(:host => "0.0.0.0", :port => 9292) do |ws|
+    ws.onopen do
+      puts "Client connected"
+    end
+
+    ws.onmessage do |msg, type|
+      puts "Received message: #{msg}"
+      ws.send msg, :type => type
+    end
+
+    ws.onclose do
+      puts "Client disconnected"
+    end
+    
+  end
 
 end
 

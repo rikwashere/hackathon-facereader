@@ -11,9 +11,17 @@ GEM
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0, >= 1.0.4)
       rack (~> 1.0)
+    websocket (1.2.2)
     websocket-driver (0.6.3)
       websocket-extensions (>= 0.1.0)
+    websocket-eventmachine-base (1.1.1)
+      eventmachine (~> 1.0)
+      websocket (~> 1.0)
+      websocket-native (~> 1.0)
+    websocket-eventmachine-server (1.0.1)
+      websocket-eventmachine-base (~> 1.0)
     websocket-extensions (0.1.2)
+    websocket-native (1.0.0)
 
 PLATFORMS
   ruby
@@ -21,6 +29,7 @@ PLATFORMS
 DEPENDENCIES
   faye-websocket
   thin
+  websocket-eventmachine-server
 
 BUNDLED WITH
    1.10.6

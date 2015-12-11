@@ -17,7 +17,13 @@
         </div>
 
         <script type="text/javascript">
-            var ws = new WebSocket("ws://localhost:9292/");
+            window.ws = new WebSocket("ws://localhost:9292");
+            
+            function processFaceReaderOutput(obj) {
+                var emotions = obj["Classification"]["ClassificationValues"] 
+                
+                console.log(emotions);
+            }
 				
            ws.onopen = function()
            {
@@ -28,8 +34,19 @@
 
            ws.onmessage = function (evt) 
            { 
-              var received_msg = evt.data;
-              console.log("Message is received...");
+              var str = evt.data;
+              
+              var json = null;
+              
+              try  {
+                  json = JSON.parse(str);
+              } catch(e) {
+                  
+              }
+              
+              if (json) {
+                processFaceReaderOutput(json)  
+              }
            };
 
            ws.onclose = function()
