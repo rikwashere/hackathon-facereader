@@ -1,19 +1,30 @@
-var cmd = "/usr/local/bin/python"
+ws = new WebSocket("ws://localhost:9292");
 
-var args = ['/Users/jeroen/Sites/vpro/hackathon/PythonAPI.py']
+function processFaceReaderOutput(obj) {
+    var emotions = obj["Classification"]["ClassificationValues"]["ClassificationValue"];
+    
+    var valenceObj = _.find(emotions, function(emo) {
+      return emo["Label"] == "Valence";
+    });
+    
+    console.log(valenceObj.Value.float);
+}
 
-var spawn = require('child_process').spawn;
-var child = spawn('./start.sh');
+ws.onopen = function() {};
 
-child.stdout.on('data', function(data) {
-    console.log('stdout: ' + data);
-    //Here is where the output goes
-});
-child.stderr.on('data', function(data) {
-    console.log('stdout: ' + data);
-    //Here is where the error output goes
-});
-child.on('close', function(code) {
-    console.log('closing code: ' + code);
-    //Here you can get the exit code of the script
-});
+ws.onmessage = function (evt) {
+   var str = evt.data;
+
+   var json = null;
+
+   try  {
+       json = JSON.parse(str);
+   } catch(e) {
+
+   }
+
+   if (json) {
+     processFaceReaderOutput(json)
+   }
+};
+
